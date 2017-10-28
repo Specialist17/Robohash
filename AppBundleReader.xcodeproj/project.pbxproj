@@ -12,6 +12,10 @@
 		05966F7A1FA307E2005012B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05966F781FA307E2005012B2 /* Main.storyboard */; };
 		05966F7C1FA307E2005012B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05966F7B1FA307E2005012B2 /* Assets.xcassets */; };
 		05966F7F1FA307E2005012B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05966F7D1FA307E2005012B2 /* LaunchScreen.storyboard */; };
+		90CA7CA91FA3E74900B44DD5 /* robo-profiles.json in Resources */ = {isa = PBXBuildFile; fileRef = 90CA7CA81FA3E74800B44DD5 /* robo-profiles.json */; };
+		90CA7CAB1FA3EBC300B44DD5 /* Robot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CA7CAA1FA3EBC300B44DD5 /* Robot.swift */; };
+		90CA7CAF1FA3EF3D00B44DD5 /* RobotCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CA7CAE1FA3EF3D00B44DD5 /* RobotCell.swift */; };
+		90CA7CB11FA3F05A00B44DD5 /* UIImage+Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CA7CB01FA3F05A00B44DD5 /* UIImage+Request.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		05966F7B1FA307E2005012B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		05966F7E1FA307E2005012B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		05966F801FA307E2005012B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90CA7CA81FA3E74800B44DD5 /* robo-profiles.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "robo-profiles.json"; sourceTree = SOURCE_ROOT; };
+		90CA7CAA1FA3EBC300B44DD5 /* Robot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Robot.swift; sourceTree = "<group>"; };
+		90CA7CAE1FA3EF3D00B44DD5 /* RobotCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RobotCell.swift; sourceTree = "<group>"; };
+		90CA7CB01FA3F05A00B44DD5 /* UIImage+Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Request.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +63,15 @@
 			isa = PBXGroup;
 			children = (
 				05966F741FA307E2005012B2 /* AppDelegate.swift */,
+				90CA7CA81FA3E74800B44DD5 /* robo-profiles.json */,
 				05966F761FA307E2005012B2 /* ViewController.swift */,
 				05966F781FA307E2005012B2 /* Main.storyboard */,
 				05966F7B1FA307E2005012B2 /* Assets.xcassets */,
+				90CA7CB01FA3F05A00B44DD5 /* UIImage+Request.swift */,
 				05966F7D1FA307E2005012B2 /* LaunchScreen.storyboard */,
 				05966F801FA307E2005012B2 /* Info.plist */,
+				90CA7CAA1FA3EBC300B44DD5 /* Robot.swift */,
+				90CA7CAE1FA3EF3D00B44DD5 /* RobotCell.swift */,
 			);
 			path = AppBundleReader;
 			sourceTree = "<group>";
@@ -124,6 +136,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				05966F7F1FA307E2005012B2 /* LaunchScreen.storyboard in Resources */,
+				90CA7CA91FA3E74900B44DD5 /* robo-profiles.json in Resources */,
 				05966F7C1FA307E2005012B2 /* Assets.xcassets in Resources */,
 				05966F7A1FA307E2005012B2 /* Main.storyboard in Resources */,
 			);
@@ -136,7 +149,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90CA7CAF1FA3EF3D00B44DD5 /* RobotCell.swift in Sources */,
 				05966F771FA307E2005012B2 /* ViewController.swift in Sources */,
+				90CA7CAB1FA3EBC300B44DD5 /* Robot.swift in Sources */,
+				90CA7CB11FA3F05A00B44DD5 /* UIImage+Request.swift in Sources */,
 				05966F751FA307E2005012B2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,7 +291,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = F7AL96RPTB;
+				DEVELOPMENT_TEAM = PCNZSAFPQA;
 				INFOPLIST_FILE = AppBundleReader/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.makeschool.AppBundleReader;
@@ -290,7 +306,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = F7AL96RPTB;
+				DEVELOPMENT_TEAM = PCNZSAFPQA;
 				INFOPLIST_FILE = AppBundleReader/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.makeschool.AppBundleReader;
